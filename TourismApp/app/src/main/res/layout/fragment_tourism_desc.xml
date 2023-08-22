@@ -1,0 +1,47 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Toursim.TourismDescFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/tourism_cover_img_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="310dp"
+                android:scaleType="centerCrop"
+                tools:src="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/tourism_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:text="Tourism name"
+                android:textStyle="bold"
+                android:padding="10dp"
+                style="@style/textColor"
+                android:layout_below="@+id/tourism_cover_img_fragment"
+                />
+
+            <TextView
+                android:id="@+id/tourism_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:layout_below="@+id/tourism_name"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

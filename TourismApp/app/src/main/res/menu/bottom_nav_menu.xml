@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/tourism_menu"
+        android:title="Tourism"
+        android:icon="@drawable/ic_baseline_mode_of_travel_24"
+        />
+    <item android:id="@+id/hotel_menu"
+        android:title="Hotels"
+        android:icon="@drawable/ic_baseline_hotel_24"
+        />
+    <item android:id="@+id/image_menu"
+        android:title="Images"
+        android:icon="@drawable/ic_baseline_image_24"
+        />
+</menu>
